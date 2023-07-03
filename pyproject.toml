@@ -1,0 +1,14 @@
+[build-system]
+requires = [
+    "setuptools>=59.6.0", 
+    "wheel",
+    "pyspark",
+    "psycopg2"
+]
+
+build-backend = "setuptools.build_meta"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = ">=3.1.1"
+psycopg2 = ">= 2.9.6"

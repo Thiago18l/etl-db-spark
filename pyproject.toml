@@ -3,7 +3,8 @@ requires = [
     "setuptools>=59.6.0", 
     "wheel",
     "pyspark",
-    "psycopg2"
+    "psycopg2",
+    "SQLAlchemy"
 ]
 
 build-backend = "setuptools.build_meta"

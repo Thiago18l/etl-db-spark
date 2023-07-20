@@ -6,6 +6,8 @@ setup(
     packages=find_packages(),
     install_requires=[
         'pyspark',
+        'SQLAlchemy',
+        'psycopg2'
     ],
     entry_points={
         'console_scripts': [
